@@ -1,0 +1,95 @@
+Testing domain class constraints is important. It contains logic that you should test if you want to prevent some very common errors, such as typos.
+
+The Optimus plugin can do this for you with the [create-unit-test-constraints|Scripts] command:
+{code}
+grails create-unit-test-constraints [domainClass]
+{code}
+Suppose you have a domain class like this:
+{code}
+package mypackage
+
+class Person {
+
+    String name
+    String lastName
+    Date birthdate
+    Boolean enabled
+
+    static constraints = {
+        name blank:false, size:1..100
+        lastName blank:false, size:1..100
+    }
+
+}
+{code}
+With the [create-unit-test-constraints|Scripts] command, you will get the following unit test files:
+* @test/unit/mypackage/PersonNameConstraintsSpec.groovy@
+* @test/unit/mypackage/PersonLastNameConstraintsSpec.groovy@
+* @test/unit/mypackage/PersonBirthdateConstraintsSpec.groovy@
+* @test/unit/mypackage/PersonEnabledConstraintsSpec.groovy@
+If we open the @test/unit/mypackage/PersonNameConstraintsSpec.groovy@ file, we will find something like this:
+{code}
+package mypackage
+
+import grails.test.mixin.*
+import spock.lang.*
+
+@TestFor(Person)
+class PersonNameConstraintsSpec extends Specification {
+
+    def setup() {
+        mockForConstraintsTests( Person, [ new Person() ] )
+    }
+
+    @Ignore('See http://jira.grails.org/browse/GRAILS-10474' )
+    def "test 'blank' constraint"() {
+
+        when:
+            def instance = new Person( name:name )
+            def result = instance.validate()
+        then:
+            result == false
+            instance.errors[ 'name' ] != null
+            instance.errors[ 'name' ] == 'blank'
+        where:
+            name = ''
+
+    }
+
+    def "test 'sizeTooLong' constraint"() {
+
+        when:
+            def instance = new Person( name:name )
+            def result = instance.validate()
+        then:
+            result == false
+            instance.errors[ 'name' ] != null
+            instance.errors[ 'name' ] == 'size'
+        where:
+            name = 'A' * 101
+
+    }
+
+    def "test 'nullable' constraint"() {
+
+        when:
+            def instance = new Person( name:name )
+            def result = instance.validate()
+        then:
+            result == false
+            instance.errors[ 'name' ] != null
+            instance.errors[ 'name' ] == 'nullable'
+        where:
+            name = null
+
+    }
+
+}
+{code}
+As you can see, the plugin generates unit tests for all the constraints contained in the @name@ property.
+{note}
+For versions of Grails prior to 2.3.0, you need to install the "Grails Spock Plugin":http://grails.org/plugin/spock if you want to execute the tests.
+{note}
+{note}
+The plugin can manage all the constraints but @matches@ and @validator@, due to their complexity. The plugin will generate the unit test method but you must set some values by hand. If you forget this, the method will throw an exception every time you run the test.
+{note}

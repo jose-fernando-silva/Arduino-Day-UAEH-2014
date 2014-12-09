@@ -1,0 +1,682 @@
+17-05-2014 10:21:14.117 [http-bio-8080-exec-9] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 10:21:14.252 [http-bio-8080-exec-9] INFO  TallerServiceList - End of request: [items:[], total:0]
+17-05-2014 10:21:17.730 [http-bio-8080-exec-1] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 10:21:17.774 [http-bio-8080-exec-1] INFO  AsistenteServiceList - End of request: [items:[k k], total:1]
+17-05-2014 10:21:22.282 [http-bio-8080-exec-7] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 10:21:22.304 [http-bio-8080-exec-7] INFO  TallerServiceList - End of request: [items:[], total:0]
+17-05-2014 10:21:24.299 [http-bio-8080-exec-3] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 10:21:24.322 [http-bio-8080-exec-3] INFO  TallerServiceList - End of request: [items:[], total:0]
+17-05-2014 10:21:25.134 [http-bio-8080-exec-4] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 10:21:25.159 [http-bio-8080-exec-4] INFO  TallerServiceList - End of request: [items:[], total:0]
+17-05-2014 10:21:25.860 [http-bio-8080-exec-10] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 10:21:25.880 [http-bio-8080-exec-10] INFO  TallerServiceList - End of request: [items:[], total:0]
+17-05-2014 10:22:02.966 [http-bio-8080-exec-3] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 10:22:02.989 [http-bio-8080-exec-3] INFO  TallerServiceList - End of request: [items:[], total:0]
+17-05-2014 10:22:05.727 [http-bio-8080-exec-6] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 10:22:05.753 [http-bio-8080-exec-6] INFO  TallerServiceList - End of request: [items:[], total:0]
+17-05-2014 10:22:17.398 [http-bio-8080-exec-6] INFO  TallerServiceCreate - Begins request: Taller 1
+17-05-2014 10:22:17.517 [http-bio-8080-exec-6] INFO  TallerServiceCreate - End of request
+17-05-2014 10:22:17.578 [http-bio-8080-exec-6] INFO  TallerServiceGet - Begins request:1
+17-05-2014 10:22:17.620 [http-bio-8080-exec-6] INFO  TallerServiceGet - End of request: Taller 1
+17-05-2014 10:22:18.483 [http-bio-8080-exec-1] INFO  TallerServiceList - Begins request: [action:list, format:null, controller:taller]
+17-05-2014 10:22:18.506 [http-bio-8080-exec-1] INFO  TallerServiceList - End of request: [items:[Taller 1], total:1]
+17-05-2014 10:22:20.968 [http-bio-8080-exec-8] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 10:22:20.988 [http-bio-8080-exec-8] INFO  AsistenteServiceList - End of request: [items:[k k], total:1]
+17-05-2014 10:24:41.154 [http-bio-8080-exec-3] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 10:24:41.182 [http-bio-8080-exec-3] INFO  AsistenteServiceList - End of request: [items:[k k], total:1]
+17-05-2014 10:25:04.475 [http-bio-8080-exec-10] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 10:25:04.495 [http-bio-8080-exec-10] INFO  AsistenteServiceList - End of request: [items:[k k], total:1]
+17-05-2014 10:25:20.698 [http-bio-8080-exec-9] INFO  AsistenteServiceCreate - Begins request: k k
+17-05-2014 10:25:20.853 [http-bio-8080-exec-9] INFO  AsistenteServiceCreate - End of request
+17-05-2014 10:25:20.890 [http-bio-8080-exec-6] INFO  AsistenteServiceGet - Begins request:2
+17-05-2014 10:25:20.909 [http-bio-8080-exec-6] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 10:25:21.205 [http-bio-8080-exec-1] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+17-05-2014 10:25:21.239 [http-bio-8080-exec-1] INFO  AsistenteServiceList - End of request: [items:[k k, k k], total:2]
+17-05-2014 10:25:24.373 [http-bio-8080-exec-1] INFO  AsistenteServiceList - Begins request: [sort:id, max:10, order:asc, action:list, controller:asistente, format:null, offset:null]
+17-05-2014 10:25:24.467 [http-bio-8080-exec-1] INFO  AsistenteServiceList - End of request: [items:[k k, k k], total:2]
+17-05-2014 10:25:25.840 [http-bio-8080-exec-8] INFO  AsistenteServiceList - Begins request: [max:10, sort:id, order:desc, action:list, format:null, controller:asistente, offset:null]
+17-05-2014 10:25:25.873 [http-bio-8080-exec-8] INFO  AsistenteServiceList - End of request: [items:[k k, k k], total:2]
+17-05-2014 10:25:26.878 [http-bio-8080-exec-2] INFO  AsistenteServiceList - Begins request: [sort:id, max:10, order:asc, action:list, controller:asistente, format:null, offset:null]
+17-05-2014 10:25:26.910 [http-bio-8080-exec-2] INFO  AsistenteServiceList - End of request: [items:[k k, k k], total:2]
+17-05-2014 10:25:28.032 [http-bio-8080-exec-5] INFO  AsistenteServiceList - Begins request: [max:10, sort:id, order:desc, action:list, format:null, controller:asistente, offset:null]
+17-05-2014 10:25:28.063 [http-bio-8080-exec-5] INFO  AsistenteServiceList - End of request: [items:[k k, k k], total:2]
+17-05-2014 10:25:28.957 [http-bio-8080-exec-4] INFO  AsistenteServiceList - Begins request: [sort:id, max:10, order:asc, action:list, controller:asistente, format:null, offset:null]
+17-05-2014 10:25:28.997 [http-bio-8080-exec-4] INFO  AsistenteServiceList - End of request: [items:[k k, k k], total:2]
+17-05-2014 10:25:29.559 [http-bio-8080-exec-3] INFO  AsistenteServiceList - Begins request: [max:10, sort:id, order:desc, action:list, format:null, controller:asistente, offset:null]
+17-05-2014 10:25:29.614 [http-bio-8080-exec-3] INFO  AsistenteServiceList - End of request: [items:[k k, k k], total:2]
+17-05-2014 10:25:30.352 [http-bio-8080-exec-10] INFO  AsistenteServiceList - Begins request: [sort:nombres, max:10, order:asc, action:list, controller:asistente, format:null, offset:null]
+17-05-2014 10:25:30.421 [http-bio-8080-exec-10] INFO  AsistenteServiceList - End of request: [items:[k k, k k], total:2]
+17-05-2014 10:25:31.114 [http-bio-8080-exec-9] INFO  AsistenteServiceList - Begins request: [max:10, sort:nombres, order:desc, action:list, format:null, controller:asistente, offset:null]
+17-05-2014 10:25:31.165 [http-bio-8080-exec-9] INFO  AsistenteServiceList - End of request: [items:[k k, k k], total:2]
+17-05-2014 10:25:32.375 [http-bio-8080-exec-6] INFO  AsistenteServiceList - Begins request: [sort:apellidos, max:10, order:asc, action:list, controller:asistente, format:null, offset:null]
+17-05-2014 10:25:32.406 [http-bio-8080-exec-6] INFO  AsistenteServiceList - End of request: [items:[k k, k k], total:2]
+17-05-2014 10:27:02.456 [http-bio-8080-exec-9] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 10:27:02.501 [http-bio-8080-exec-9] INFO  AsistenteServiceList - End of request: [items:[k k, k k], total:2]
+17-05-2014 10:29:18.346 [http-bio-8080-exec-10] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 10:29:18.435 [http-bio-8080-exec-10] INFO  TallerServiceList - End of request: [items:[Taller 1], total:1]
+17-05-2014 10:29:23.162 [http-bio-8080-exec-1] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 10:29:23.232 [http-bio-8080-exec-1] INFO  AsistenteServiceList - End of request: [items:[k k, k k], total:2]
+17-05-2014 10:29:24.746 [http-bio-8080-exec-6] INFO  AsistenteServiceGet - Begins request:1
+17-05-2014 10:29:24.775 [http-bio-8080-exec-6] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 10:29:29.170 [http-bio-8080-exec-6] INFO  AsistenteServiceGet - Begins request:1
+17-05-2014 10:29:29.189 [http-bio-8080-exec-6] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 10:29:29.301 [http-bio-8080-exec-6] INFO  AsistenteServiceUpdate - Begins request: k k
+17-05-2014 10:29:29.391 [http-bio-8080-exec-6] INFO  AsistenteServiceUpdate - End of request
+17-05-2014 10:29:29.447 [http-bio-8080-exec-9] INFO  AsistenteServiceGet - Begins request:1
+17-05-2014 10:29:29.475 [http-bio-8080-exec-9] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 10:29:29.728 [http-bio-8080-exec-5] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+17-05-2014 10:29:29.787 [http-bio-8080-exec-5] INFO  AsistenteServiceList - End of request: [items:[k k, k k], total:2]
+17-05-2014 10:30:57.205 [http-bio-8080-exec-5] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 10:30:57.236 [http-bio-8080-exec-5] INFO  TallerServiceList - End of request: [items:[Taller 1], total:1]
+17-05-2014 10:30:58.523 [http-bio-8080-exec-4] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 10:30:58.551 [http-bio-8080-exec-4] INFO  AsistenteServiceList - End of request: [items:[k k, k k], total:2]
+17-05-2014 10:31:03.281 [http-bio-8080-exec-7] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 10:31:03.302 [http-bio-8080-exec-7] INFO  AsistenteServiceList - End of request: [items:[k k, k k], total:2]
+17-05-2014 10:31:04.160 [http-bio-8080-exec-7] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 10:31:04.192 [http-bio-8080-exec-7] INFO  TallerServiceList - End of request: [items:[Taller 1], total:1]
+17-05-2014 10:35:52.042 [http-bio-8080-exec-7] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 10:35:52.090 [http-bio-8080-exec-7] INFO  TallerServiceList - End of request: [items:[Taller 1], total:1]
+17-05-2014 10:35:54.866 [http-bio-8080-exec-4] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 10:35:54.924 [http-bio-8080-exec-4] INFO  AsistenteServiceList - End of request: [items:[k k, k k], total:2]
+17-05-2014 10:35:59.077 [http-bio-8080-exec-2] INFO  AsistenteServiceGet - Begins request:2
+17-05-2014 10:35:59.095 [http-bio-8080-exec-2] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 10:36:00.920 [http-bio-8080-exec-2] INFO  AsistenteServiceGet - Begins request:2
+17-05-2014 10:36:00.943 [http-bio-8080-exec-2] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 10:36:00.985 [http-bio-8080-exec-2] INFO  AsistenteServiceUpdate - Begins request: k k
+17-05-2014 10:36:01.068 [http-bio-8080-exec-2] INFO  AsistenteServiceUpdate - End of request
+17-05-2014 10:36:01.107 [http-bio-8080-exec-8] INFO  AsistenteServiceGet - Begins request:2
+17-05-2014 10:36:01.121 [http-bio-8080-exec-8] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 10:36:01.334 [http-bio-8080-exec-8] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+17-05-2014 10:36:01.359 [http-bio-8080-exec-8] INFO  AsistenteServiceList - End of request: [items:[k k, k k], total:2]
+17-05-2014 10:42:20.282 [http-bio-8080-exec-3] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 10:42:20.335 [http-bio-8080-exec-3] INFO  TallerServiceList - End of request: [items:[Taller 1], total:1]
+17-05-2014 10:42:21.127 [http-bio-8080-exec-2] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 10:42:21.178 [http-bio-8080-exec-2] INFO  AsistenteServiceList - End of request: [items:[k k, k k], total:2]
+17-05-2014 10:42:24.199 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - Begins request:2
+17-05-2014 10:42:24.215 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 10:42:26.376 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - Begins request:2
+17-05-2014 10:42:26.392 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 10:42:26.428 [http-bio-8080-exec-4] INFO  AsistenteServiceUpdate - Begins request: k k
+17-05-2014 10:42:26.510 [http-bio-8080-exec-4] INFO  AsistenteServiceUpdate - End of request
+17-05-2014 10:42:26.559 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - Begins request:2
+17-05-2014 10:42:26.574 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 10:42:26.801 [http-bio-8080-exec-4] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+17-05-2014 10:42:26.833 [http-bio-8080-exec-4] INFO  AsistenteServiceList - End of request: [items:[k k, k k], total:2]
+17-05-2014 10:44:33.167 [http-bio-8080-exec-1] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 10:44:33.218 [http-bio-8080-exec-1] INFO  AsistenteServiceList - End of request: [items:[k k, k k], total:2]
+17-05-2014 10:44:45.098 [http-bio-8080-exec-7] INFO  AsistenteServiceCreate - Begins request: h h
+17-05-2014 10:44:45.185 [http-bio-8080-exec-7] INFO  AsistenteServiceCreate - End of request
+17-05-2014 10:44:45.225 [http-bio-8080-exec-9] INFO  AsistenteServiceGet - Begins request:3
+17-05-2014 10:44:45.242 [http-bio-8080-exec-9] INFO  AsistenteServiceGet - End of request: h h
+17-05-2014 10:44:45.532 [http-bio-8080-exec-5] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+17-05-2014 10:44:45.569 [http-bio-8080-exec-5] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 10:44:52.406 [http-bio-8080-exec-8] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 10:44:52.433 [http-bio-8080-exec-8] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 10:44:55.803 [http-bio-8080-exec-3] INFO  AsistenteServiceGet - Begins request:3
+17-05-2014 10:44:55.819 [http-bio-8080-exec-3] INFO  AsistenteServiceGet - End of request: h h
+17-05-2014 10:44:59.009 [http-bio-8080-exec-3] INFO  AsistenteServiceGet - Begins request:3
+17-05-2014 10:44:59.029 [http-bio-8080-exec-3] INFO  AsistenteServiceGet - End of request: h h
+17-05-2014 10:44:59.057 [http-bio-8080-exec-3] INFO  AsistenteServiceUpdate - Begins request: h h
+17-05-2014 10:44:59.162 [http-bio-8080-exec-3] INFO  AsistenteServiceUpdate - End of request
+17-05-2014 10:44:59.210 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - Begins request:3
+17-05-2014 10:44:59.254 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - End of request: h h
+17-05-2014 10:44:59.640 [http-bio-8080-exec-1] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+17-05-2014 10:44:59.692 [http-bio-8080-exec-1] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 10:53:28.446 [http-bio-8080-exec-10] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 10:53:28.475 [http-bio-8080-exec-10] INFO  TallerServiceList - End of request: [items:[Taller 1], total:1]
+17-05-2014 18:49:51.853 [http-bio-8080-exec-7] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 18:49:52.684 [http-bio-8080-exec-7] INFO  TallerServiceList - End of request: [items:[Taller 1], total:1]
+17-05-2014 18:50:13.003 [http-bio-8080-exec-9] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 18:50:13.203 [http-bio-8080-exec-9] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 18:50:54.577 [http-bio-8080-exec-8] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 18:50:54.628 [http-bio-8080-exec-8] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 20:39:23.271 [http-bio-8080-exec-8] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 20:39:23.324 [http-bio-8080-exec-8] INFO  TallerServiceList - End of request: [items:[Taller 1], total:1]
+17-05-2014 20:39:24.296 [http-bio-8080-exec-1] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 20:39:24.336 [http-bio-8080-exec-1] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 20:50:05.394 [http-bio-8080-exec-2] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 20:50:05.444 [http-bio-8080-exec-2] INFO  TallerServiceList - End of request: [items:[Taller 1], total:1]
+17-05-2014 20:50:07.977 [http-bio-8080-exec-9] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 20:50:08.040 [http-bio-8080-exec-9] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 20:50:09.705 [http-bio-8080-exec-9] INFO  AsistenteServiceGet - Begins request:2
+17-05-2014 20:50:09.727 [http-bio-8080-exec-9] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 20:50:11.997 [http-bio-8080-exec-9] INFO  AsistenteServiceGet - Begins request:2
+17-05-2014 20:50:12.045 [http-bio-8080-exec-9] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 20:50:12.373 [http-bio-8080-exec-9] INFO  AsistenteServiceUpdate - Begins request: k k
+17-05-2014 20:50:12.813 [http-bio-8080-exec-9] INFO  AsistenteServiceUpdate - End of request
+17-05-2014 20:50:12.876 [http-bio-8080-exec-9] INFO  AsistenteServiceGet - Begins request:2
+17-05-2014 20:50:12.910 [http-bio-8080-exec-9] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 20:50:13.445 [http-bio-8080-exec-10] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+17-05-2014 20:50:13.503 [http-bio-8080-exec-10] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 20:52:30.134 [http-bio-8080-exec-2] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 20:52:30.204 [http-bio-8080-exec-2] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 20:52:31.365 [http-bio-8080-exec-9] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 20:52:31.421 [http-bio-8080-exec-9] INFO  TallerServiceList - End of request: [items:[Taller 1], total:1]
+17-05-2014 20:52:34.042 [http-bio-8080-exec-4] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 20:52:34.064 [http-bio-8080-exec-4] INFO  TallerServiceList - End of request: [items:[Taller 1], total:1]
+17-05-2014 20:52:35.048 [http-bio-8080-exec-7] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 20:52:35.075 [http-bio-8080-exec-7] INFO  TallerServiceList - End of request: [items:[Taller 1], total:1]
+17-05-2014 20:52:35.643 [http-bio-8080-exec-7] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 20:52:35.682 [http-bio-8080-exec-7] INFO  TallerServiceList - End of request: [items:[Taller 1], total:1]
+17-05-2014 20:52:36.020 [http-bio-8080-exec-5] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 20:52:36.042 [http-bio-8080-exec-5] INFO  TallerServiceList - End of request: [items:[Taller 1], total:1]
+17-05-2014 20:52:36.405 [http-bio-8080-exec-2] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 20:52:36.435 [http-bio-8080-exec-2] INFO  TallerServiceList - End of request: [items:[Taller 1], total:1]
+17-05-2014 20:52:36.679 [http-bio-8080-exec-2] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 20:52:36.727 [http-bio-8080-exec-2] INFO  TallerServiceList - End of request: [items:[Taller 1], total:1]
+17-05-2014 20:52:37.424 [http-bio-8080-exec-10] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 20:52:37.513 [http-bio-8080-exec-10] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 20:52:38.764 [http-bio-8080-exec-10] INFO  AsistenteServiceGet - Begins request:1
+17-05-2014 20:52:38.780 [http-bio-8080-exec-10] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 20:52:40.841 [http-bio-8080-exec-7] INFO  AsistenteServiceGet - Begins request:1
+17-05-2014 20:52:40.856 [http-bio-8080-exec-7] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 20:52:40.883 [http-bio-8080-exec-7] INFO  AsistenteServiceUpdate - Begins request: k k
+17-05-2014 20:52:40.971 [http-bio-8080-exec-7] INFO  AsistenteServiceUpdate - End of request
+17-05-2014 20:52:41.014 [http-bio-8080-exec-3] INFO  AsistenteServiceGet - Begins request:1
+17-05-2014 20:52:41.033 [http-bio-8080-exec-3] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 20:52:41.248 [http-bio-8080-exec-5] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+17-05-2014 20:52:41.283 [http-bio-8080-exec-5] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 20:54:45.541 [http-bio-8080-exec-5] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 20:54:45.591 [http-bio-8080-exec-5] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 20:54:47.766 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - Begins request:3
+17-05-2014 20:54:47.783 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - End of request: h h
+17-05-2014 20:54:49.298 [http-bio-8080-exec-8] INFO  AsistenteServiceGet - Begins request:3
+17-05-2014 20:54:49.333 [http-bio-8080-exec-8] INFO  AsistenteServiceGet - End of request: h h
+17-05-2014 20:54:49.384 [http-bio-8080-exec-8] INFO  AsistenteServiceUpdate - Begins request: h h
+17-05-2014 20:54:49.508 [http-bio-8080-exec-8] INFO  AsistenteServiceUpdate - End of request
+17-05-2014 20:54:49.573 [http-bio-8080-exec-9] INFO  AsistenteServiceGet - Begins request:3
+17-05-2014 20:54:49.597 [http-bio-8080-exec-9] INFO  AsistenteServiceGet - End of request: h h
+17-05-2014 20:54:49.806 [http-bio-8080-exec-10] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+17-05-2014 20:54:49.830 [http-bio-8080-exec-10] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 20:58:14.980 [http-bio-8080-exec-4] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 20:58:15.143 [http-bio-8080-exec-4] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 20:58:18.082 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - Begins request:3
+17-05-2014 20:58:18.125 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - End of request: h h
+17-05-2014 20:58:19.355 [http-bio-8080-exec-2] INFO  AsistenteServiceGet - Begins request:3
+17-05-2014 20:58:19.371 [http-bio-8080-exec-2] INFO  AsistenteServiceGet - End of request: h h
+17-05-2014 20:58:19.405 [http-bio-8080-exec-2] INFO  AsistenteServiceUpdate - Begins request: h h
+17-05-2014 20:58:19.483 [http-bio-8080-exec-2] INFO  AsistenteServiceUpdate - End of request
+17-05-2014 20:58:19.521 [http-bio-8080-exec-8] INFO  AsistenteServiceGet - Begins request:3
+17-05-2014 20:58:19.536 [http-bio-8080-exec-8] INFO  AsistenteServiceGet - End of request: h h
+17-05-2014 20:58:19.814 [http-bio-8080-exec-8] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+17-05-2014 20:58:19.842 [http-bio-8080-exec-8] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 21:42:22.105 [http-bio-8080-exec-6] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 21:42:22.141 [http-bio-8080-exec-6] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 21:42:23.091 [http-bio-8080-exec-7] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 21:42:23.111 [http-bio-8080-exec-7] INFO  TallerServiceList - End of request: [items:[Taller 1], total:1]
+17-05-2014 21:42:24.088 [http-bio-8080-exec-1] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 21:42:24.143 [http-bio-8080-exec-1] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 21:42:25.908 [http-bio-8080-exec-1] INFO  AsistenteServiceGet - Begins request:1
+17-05-2014 21:42:25.931 [http-bio-8080-exec-1] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 21:42:27.538 [http-bio-8080-exec-1] INFO  AsistenteServiceGet - Begins request:1
+17-05-2014 21:42:27.558 [http-bio-8080-exec-1] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 21:42:27.608 [http-bio-8080-exec-1] INFO  AsistenteServiceUpdate - Begins request: k k
+17-05-2014 21:42:27.687 [http-bio-8080-exec-1] INFO  AsistenteServiceUpdate - End of request
+17-05-2014 21:42:27.718 [http-bio-8080-exec-6] INFO  AsistenteServiceGet - Begins request:1
+17-05-2014 21:42:27.735 [http-bio-8080-exec-6] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 21:42:28.137 [http-bio-8080-exec-8] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+17-05-2014 21:42:28.205 [http-bio-8080-exec-8] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 21:42:29.243 [http-bio-8080-exec-7] INFO  AsistenteServiceGet - Begins request:2
+17-05-2014 21:42:29.260 [http-bio-8080-exec-7] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 21:42:31.132 [http-bio-8080-exec-7] INFO  AsistenteServiceGet - Begins request:2
+17-05-2014 21:42:31.156 [http-bio-8080-exec-7] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 21:42:31.176 [http-bio-8080-exec-7] INFO  AsistenteServiceUpdate - Begins request: k k
+17-05-2014 21:42:31.261 [http-bio-8080-exec-7] INFO  AsistenteServiceUpdate - End of request
+17-05-2014 21:42:31.302 [http-bio-8080-exec-5] INFO  AsistenteServiceGet - Begins request:2
+17-05-2014 21:42:31.321 [http-bio-8080-exec-5] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 21:42:31.521 [http-bio-8080-exec-5] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+17-05-2014 21:42:31.557 [http-bio-8080-exec-5] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 21:42:32.526 [http-bio-8080-exec-3] INFO  AsistenteServiceGet - Begins request:3
+17-05-2014 21:42:32.540 [http-bio-8080-exec-3] INFO  AsistenteServiceGet - End of request: h h
+17-05-2014 21:42:34.472 [http-bio-8080-exec-3] INFO  AsistenteServiceGet - Begins request:3
+17-05-2014 21:42:34.490 [http-bio-8080-exec-3] INFO  AsistenteServiceGet - End of request: h h
+17-05-2014 21:42:34.512 [http-bio-8080-exec-3] INFO  AsistenteServiceUpdate - Begins request: h h
+17-05-2014 21:42:34.599 [http-bio-8080-exec-3] INFO  AsistenteServiceUpdate - End of request
+17-05-2014 21:42:34.627 [http-bio-8080-exec-3] INFO  AsistenteServiceGet - Begins request:3
+17-05-2014 21:42:34.645 [http-bio-8080-exec-3] INFO  AsistenteServiceGet - End of request: h h
+17-05-2014 21:42:34.827 [http-bio-8080-exec-1] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+17-05-2014 21:42:34.853 [http-bio-8080-exec-1] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 22:00:19.674 [http-bio-8080-exec-9] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 22:00:19.732 [http-bio-8080-exec-9] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 22:00:21.722 [http-bio-8080-exec-1] INFO  AsistenteServiceGet - Begins request:1
+17-05-2014 22:00:21.744 [http-bio-8080-exec-1] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 22:00:23.881 [http-bio-8080-exec-10] INFO  AsistenteServiceGet - Begins request:1
+17-05-2014 22:00:23.895 [http-bio-8080-exec-10] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 22:00:23.942 [http-bio-8080-exec-10] INFO  AsistenteServiceUpdate - Begins request: k k
+17-05-2014 22:00:24.028 [http-bio-8080-exec-10] INFO  AsistenteServiceUpdate - End of request
+17-05-2014 22:00:24.060 [http-bio-8080-exec-10] INFO  AsistenteServiceGet - Begins request:1
+17-05-2014 22:00:24.076 [http-bio-8080-exec-10] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 22:00:24.260 [http-bio-8080-exec-2] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+17-05-2014 22:00:24.296 [http-bio-8080-exec-2] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 22:00:25.485 [http-bio-8080-exec-2] INFO  AsistenteServiceGet - Begins request:2
+17-05-2014 22:00:25.506 [http-bio-8080-exec-2] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 22:00:28.756 [http-bio-8080-exec-8] INFO  AsistenteServiceGet - Begins request:2
+17-05-2014 22:00:28.772 [http-bio-8080-exec-8] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 22:00:28.785 [http-bio-8080-exec-8] INFO  AsistenteServiceUpdate - Begins request: k k
+17-05-2014 22:00:28.886 [http-bio-8080-exec-8] INFO  AsistenteServiceUpdate - End of request
+17-05-2014 22:00:28.948 [http-bio-8080-exec-8] INFO  AsistenteServiceGet - Begins request:2
+17-05-2014 22:00:28.991 [http-bio-8080-exec-8] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 22:00:29.341 [http-bio-8080-exec-5] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+17-05-2014 22:00:29.387 [http-bio-8080-exec-5] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 22:00:30.018 [http-bio-8080-exec-3] INFO  AsistenteServiceGet - Begins request:3
+17-05-2014 22:00:30.037 [http-bio-8080-exec-3] INFO  AsistenteServiceGet - End of request: h h
+17-05-2014 22:00:31.468 [http-bio-8080-exec-9] INFO  AsistenteServiceGet - Begins request:3
+17-05-2014 22:00:31.488 [http-bio-8080-exec-9] INFO  AsistenteServiceGet - End of request: h h
+17-05-2014 22:00:31.515 [http-bio-8080-exec-9] INFO  AsistenteServiceUpdate - Begins request: h h
+17-05-2014 22:00:31.615 [http-bio-8080-exec-9] INFO  AsistenteServiceUpdate - End of request
+17-05-2014 22:00:31.645 [http-bio-8080-exec-1] INFO  AsistenteServiceGet - Begins request:3
+17-05-2014 22:00:31.670 [http-bio-8080-exec-1] INFO  AsistenteServiceGet - End of request: h h
+17-05-2014 22:00:31.887 [http-bio-8080-exec-7] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+17-05-2014 22:00:31.915 [http-bio-8080-exec-7] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 22:02:35.919 [http-bio-8080-exec-6] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 22:02:35.944 [http-bio-8080-exec-6] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 22:02:36.790 [http-bio-8080-exec-8] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 22:02:36.824 [http-bio-8080-exec-8] INFO  TallerServiceList - End of request: [items:[Taller 1], total:1]
+17-05-2014 22:04:55.194 [http-bio-8080-exec-2] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 22:04:55.259 [http-bio-8080-exec-2] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 22:04:56.775 [http-bio-8080-exec-6] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 22:04:56.807 [http-bio-8080-exec-6] INFO  TallerServiceList - End of request: [items:[Taller 1], total:1]
+17-05-2014 22:04:59.411 [http-bio-8080-exec-3] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 22:04:59.442 [http-bio-8080-exec-3] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 22:08:15.999 [http-bio-8080-exec-7] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 22:08:16.095 [http-bio-8080-exec-7] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 22:08:23.104 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - Begins request:1
+17-05-2014 22:08:23.130 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 22:08:26.618 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - Begins request:2
+17-05-2014 22:08:26.639 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 22:08:27.506 [http-bio-8080-exec-1] INFO  AsistenteServiceGet - Begins request:3
+17-05-2014 22:08:27.648 [http-bio-8080-exec-1] INFO  AsistenteServiceGet - End of request: h h
+17-05-2014 22:08:28.812 [http-bio-8080-exec-6] INFO  AsistenteServiceGet - Begins request:2
+17-05-2014 22:08:28.833 [http-bio-8080-exec-6] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 22:08:29.640 [http-bio-8080-exec-9] INFO  AsistenteServiceGet - Begins request:1
+17-05-2014 22:08:29.653 [http-bio-8080-exec-9] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 22:08:32.224 [http-bio-8080-exec-8] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 22:08:32.255 [http-bio-8080-exec-8] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 22:08:37.865 [http-bio-8080-exec-5] INFO  AsistenteServiceGet - Begins request:1
+17-05-2014 22:08:37.904 [http-bio-8080-exec-5] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 22:08:39.613 [http-bio-8080-exec-7] INFO  AsistenteServiceGet - Begins request:2
+17-05-2014 22:08:39.633 [http-bio-8080-exec-7] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 22:08:40.414 [http-bio-8080-exec-2] INFO  AsistenteServiceGet - Begins request:3
+17-05-2014 22:08:40.432 [http-bio-8080-exec-2] INFO  AsistenteServiceGet - End of request: h h
+17-05-2014 22:08:42.371 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - Begins request:1
+17-05-2014 22:08:42.388 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 22:08:43.305 [http-bio-8080-exec-1] INFO  AsistenteServiceGet - Begins request:2
+17-05-2014 22:08:43.323 [http-bio-8080-exec-1] INFO  AsistenteServiceGet - End of request: k k
+17-05-2014 22:08:44.044 [http-bio-8080-exec-6] INFO  AsistenteServiceGet - Begins request:3
+17-05-2014 22:08:44.066 [http-bio-8080-exec-6] INFO  AsistenteServiceGet - End of request: h h
+17-05-2014 22:08:50.018 [http-bio-8080-exec-8] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 22:08:50.060 [http-bio-8080-exec-8] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 22:09:07.423 [http-bio-8080-exec-7] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 22:09:07.454 [http-bio-8080-exec-7] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 22:09:12.123 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - Begins request:3
+17-05-2014 22:09:12.144 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - End of request: h h
+17-05-2014 22:09:15.058 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - Begins request:3
+17-05-2014 22:09:15.074 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - End of request: h h
+17-05-2014 22:09:15.098 [http-bio-8080-exec-4] INFO  AsistenteServiceUpdate - Begins request: h h
+17-05-2014 22:09:15.219 [http-bio-8080-exec-4] INFO  AsistenteServiceUpdate - End of request
+17-05-2014 22:09:15.255 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - Begins request:3
+17-05-2014 22:09:15.270 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - End of request: h h
+17-05-2014 22:09:15.472 [http-bio-8080-exec-6] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+17-05-2014 22:09:15.507 [http-bio-8080-exec-6] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 22:09:21.646 [http-bio-8080-exec-3] INFO  AsistenteServiceGet - Begins request:3
+17-05-2014 22:09:21.702 [http-bio-8080-exec-3] INFO  AsistenteServiceGet - End of request: h h
+17-05-2014 22:09:21.725 [http-bio-8080-exec-3] INFO  AsistenteServiceUpdate - Begins request: h h
+17-05-2014 22:09:21.844 [http-bio-8080-exec-3] INFO  AsistenteServiceUpdate - End of request
+17-05-2014 22:09:21.916 [http-bio-8080-exec-9] INFO  AsistenteServiceGet - Begins request:3
+17-05-2014 22:09:21.961 [http-bio-8080-exec-9] INFO  AsistenteServiceGet - End of request: h h
+17-05-2014 22:09:22.264 [http-bio-8080-exec-9] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+17-05-2014 22:09:22.296 [http-bio-8080-exec-9] INFO  AsistenteServiceList - End of request: [items:[k k, k k, h h], total:3]
+17-05-2014 22:47:17.064 [http-bio-8080-exec-9] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 22:47:18.609 [http-bio-8080-exec-9] INFO  AsistenteServiceList - End of request: [items:[], total:0]
+17-05-2014 22:47:20.959 [http-bio-8080-exec-10] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 22:47:21.313 [http-bio-8080-exec-10] INFO  TallerServiceList - End of request: [items:[], total:0]
+17-05-2014 22:48:06.306 [http-bio-8080-exec-4] INFO  TallerServiceCreate - Begins request: Talle 1
+17-05-2014 22:48:06.701 [http-bio-8080-exec-4] INFO  TallerServiceCreate - End of request
+17-05-2014 22:48:06.866 [http-bio-8080-exec-4] INFO  TallerServiceGet - Begins request:1
+17-05-2014 22:48:07.013 [http-bio-8080-exec-4] INFO  TallerServiceGet - End of request: Talle 1
+17-05-2014 22:48:07.821 [http-bio-8080-exec-1] INFO  TallerServiceList - Begins request: [action:list, format:null, controller:taller]
+17-05-2014 22:48:07.855 [http-bio-8080-exec-1] INFO  TallerServiceList - End of request: [items:[Talle 1], total:1]
+17-05-2014 22:48:13.728 [http-bio-8080-exec-1] INFO  TallerServiceGet - Begins request:1
+17-05-2014 22:48:13.757 [http-bio-8080-exec-1] INFO  TallerServiceGet - End of request: Talle 1
+17-05-2014 22:48:13.935 [http-bio-8080-exec-1] INFO  TallerServiceUpdate - Begins request: Taller 1
+17-05-2014 22:48:14.112 [http-bio-8080-exec-1] INFO  TallerServiceUpdate - End of request
+17-05-2014 22:48:14.151 [http-bio-8080-exec-5] INFO  TallerServiceGet - Begins request:1
+17-05-2014 22:48:14.173 [http-bio-8080-exec-5] INFO  TallerServiceGet - End of request: Taller 1
+17-05-2014 22:48:14.307 [http-bio-8080-exec-10] INFO  TallerServiceList - Begins request: [action:list, format:null, controller:taller]
+17-05-2014 22:48:14.362 [http-bio-8080-exec-10] INFO  TallerServiceList - End of request: [items:[Taller 1], total:1]
+17-05-2014 22:48:18.128 [http-bio-8080-exec-9] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 22:48:18.157 [http-bio-8080-exec-9] INFO  AsistenteServiceList - End of request: [items:[], total:0]
+17-05-2014 22:48:36.928 [http-bio-8080-exec-7] INFO  TallerServiceCreate - Begins request: Taller 2
+17-05-2014 22:48:37.000 [http-bio-8080-exec-7] INFO  TallerServiceCreate - End of request
+17-05-2014 22:48:37.069 [http-bio-8080-exec-4] INFO  TallerServiceGet - Begins request:2
+17-05-2014 22:48:37.082 [http-bio-8080-exec-4] INFO  TallerServiceGet - End of request: Taller 2
+17-05-2014 22:48:37.165 [http-bio-8080-exec-8] INFO  TallerServiceList - Begins request: [action:list, format:null, controller:taller]
+17-05-2014 22:48:37.197 [http-bio-8080-exec-8] INFO  TallerServiceList - End of request: [items:[Taller 1, Taller 2], total:2]
+17-05-2014 22:48:58.720 [http-bio-8080-exec-1] INFO  TallerServiceGet - Begins request:2
+17-05-2014 22:48:58.781 [http-bio-8080-exec-1] INFO  TallerServiceGet - End of request: Taller 2
+17-05-2014 22:48:58.802 [http-bio-8080-exec-1] INFO  TallerServiceUpdate - Begins request: Taller 3
+17-05-2014 22:48:58.898 [http-bio-8080-exec-1] INFO  TallerServiceUpdate - End of request
+17-05-2014 22:48:58.927 [http-bio-8080-exec-5] INFO  TallerServiceGet - Begins request:2
+17-05-2014 22:48:58.943 [http-bio-8080-exec-5] INFO  TallerServiceGet - End of request: Taller 3
+17-05-2014 22:48:59.021 [http-bio-8080-exec-10] INFO  TallerServiceList - Begins request: [action:list, format:null, controller:taller]
+17-05-2014 22:48:59.048 [http-bio-8080-exec-10] INFO  TallerServiceList - End of request: [items:[Taller 1, Taller 3], total:2]
+17-05-2014 22:49:03.832 [http-bio-8080-exec-10] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 22:49:03.863 [http-bio-8080-exec-10] INFO  AsistenteServiceList - End of request: [items:[], total:0]
+17-05-2014 22:49:17.166 [http-bio-8080-exec-7] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 22:49:17.228 [http-bio-8080-exec-7] INFO  AsistenteServiceList - End of request: [items:[], total:0]
+17-05-2014 22:49:26.540 [http-bio-8080-exec-8] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 22:49:26.565 [http-bio-8080-exec-8] INFO  TallerServiceList - End of request: [items:[Taller 1, Taller 3], total:2]
+17-05-2014 22:49:34.073 [http-bio-8080-exec-1] INFO  TallerServiceCreate - Begins request: Taller 2
+17-05-2014 22:49:34.167 [http-bio-8080-exec-1] INFO  TallerServiceCreate - End of request
+17-05-2014 22:49:34.208 [http-bio-8080-exec-5] INFO  TallerServiceGet - Begins request:3
+17-05-2014 22:49:34.223 [http-bio-8080-exec-5] INFO  TallerServiceGet - End of request: Taller 2
+17-05-2014 22:49:34.421 [http-bio-8080-exec-5] INFO  TallerServiceList - Begins request: [action:list, format:null, controller:taller]
+17-05-2014 22:49:34.453 [http-bio-8080-exec-5] INFO  TallerServiceList - End of request: [items:[Taller 1, Taller 3, Taller 2], total:3]
+17-05-2014 22:49:36.910 [http-bio-8080-exec-5] INFO  TallerServiceList - Begins request: [sort:nombre, max:10, order:asc, action:list, controller:taller, format:null, offset:null]
+17-05-2014 22:49:37.052 [http-bio-8080-exec-5] INFO  TallerServiceList - End of request: [items:[Taller 1, Taller 2, Taller 3], total:3]
+17-05-2014 22:49:38.493 [http-bio-8080-exec-9] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 22:49:38.516 [http-bio-8080-exec-9] INFO  TallerServiceList - End of request: [items:[Taller 1, Taller 3, Taller 2], total:3]
+17-05-2014 22:49:39.487 [http-bio-8080-exec-9] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 22:49:39.531 [http-bio-8080-exec-9] INFO  TallerServiceList - End of request: [items:[Taller 1, Taller 3, Taller 2], total:3]
+17-05-2014 22:49:43.631 [http-bio-8080-exec-1] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 22:49:43.660 [http-bio-8080-exec-1] INFO  AsistenteServiceList - End of request: [items:[], total:0]
+17-05-2014 22:50:24.373 [http-bio-8080-exec-6] INFO  AsistenteServiceCreate - Begins request: Gonzalez Martinez Francisco Javier
+17-05-2014 22:50:24.671 [http-bio-8080-exec-6] INFO  AsistenteServiceCreate - End of request
+17-05-2014 22:50:24.729 [http-bio-8080-exec-2] INFO  AsistenteServiceGet - Begins request:1
+17-05-2014 22:50:24.781 [http-bio-8080-exec-2] INFO  AsistenteServiceGet - End of request: Gonzalez Martinez Francisco Javier
+17-05-2014 22:50:26.456 [http-bio-8080-exec-5] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+17-05-2014 22:50:26.503 [http-bio-8080-exec-5] INFO  AsistenteServiceList - End of request: [items:[Gonzalez Martinez Francisco Javier], total:1]
+17-05-2014 22:50:31.564 [http-bio-8080-exec-4] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 22:50:31.597 [http-bio-8080-exec-4] INFO  TallerServiceList - End of request: [items:[Taller 1, Taller 3, Taller 2], total:3]
+17-05-2014 22:50:32.694 [http-bio-8080-exec-9] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 22:50:32.720 [http-bio-8080-exec-9] INFO  AsistenteServiceList - End of request: [items:[Gonzalez Martinez Francisco Javier], total:1]
+17-05-2014 22:50:57.433 [http-bio-8080-exec-5] INFO  AsistenteServiceCreate - Begins request: Viveros Guerrero Jose Manuel
+17-05-2014 22:50:57.640 [http-bio-8080-exec-5] INFO  AsistenteServiceCreate - End of request
+17-05-2014 22:50:57.685 [http-bio-8080-exec-6] INFO  AsistenteServiceGet - Begins request:2
+17-05-2014 22:50:57.703 [http-bio-8080-exec-6] INFO  AsistenteServiceGet - End of request: Viveros Guerrero Jose Manuel
+17-05-2014 22:50:58.393 [http-bio-8080-exec-6] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+17-05-2014 22:50:58.428 [http-bio-8080-exec-6] INFO  AsistenteServiceList - End of request: [items:[Gonzalez Martinez Francisco Javier, Viveros Guerrero Jose Manuel], total:2]
+17-05-2014 22:51:22.468 [http-bio-8080-exec-6] INFO  AsistenteServiceCreate - Begins request: Silva Hernández José
+17-05-2014 22:51:22.613 [http-bio-8080-exec-6] INFO  AsistenteServiceCreate - End of request
+17-05-2014 22:51:22.688 [http-bio-8080-exec-3] INFO  AsistenteServiceGet - Begins request:3
+17-05-2014 22:51:22.716 [http-bio-8080-exec-3] INFO  AsistenteServiceGet - End of request: Silva Hernández José
+17-05-2014 22:51:23.081 [http-bio-8080-exec-4] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+17-05-2014 22:51:23.113 [http-bio-8080-exec-4] INFO  AsistenteServiceList - End of request: [items:[Gonzalez Martinez Francisco Javier, Viveros Guerrero Jose Manuel, Silva Hernández José], total:3]
+17-05-2014 22:51:54.369 [http-bio-8080-exec-1] INFO  AsistenteServiceCreate - Begins request: Hernandez Clementina
+17-05-2014 22:51:54.562 [http-bio-8080-exec-1] INFO  AsistenteServiceCreate - End of request
+17-05-2014 22:51:54.627 [http-bio-8080-exec-1] INFO  AsistenteServiceGet - Begins request:4
+17-05-2014 22:51:54.672 [http-bio-8080-exec-1] INFO  AsistenteServiceGet - End of request: Hernandez Clementina
+17-05-2014 22:51:55.179 [http-bio-8080-exec-2] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+17-05-2014 22:51:55.238 [http-bio-8080-exec-2] INFO  AsistenteServiceList - End of request: [items:[Gonzalez Martinez Francisco Javier, Viveros Guerrero Jose Manuel, Silva Hernández José, Hernandez Clementina], total:4]
+17-05-2014 22:52:23.636 [http-bio-8080-exec-10] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 22:52:23.684 [http-bio-8080-exec-10] INFO  AsistenteServiceList - End of request: [items:[Gonzalez Martinez Francisco Javier, Viveros Guerrero Jose Manuel, Silva Hernández José, Hernandez Clementina], total:4]
+17-05-2014 22:52:26.364 [http-bio-8080-exec-8] INFO  AsistenteServiceGet - Begins request:4
+17-05-2014 22:52:26.382 [http-bio-8080-exec-8] INFO  AsistenteServiceGet - End of request: Hernandez Clementina
+17-05-2014 22:53:59.685 [http-bio-8080-exec-9] INFO  AsistenteServiceGet - Begins request:4
+17-05-2014 22:53:59.723 [http-bio-8080-exec-9] INFO  AsistenteServiceGet - End of request: Hernandez Clementina
+17-05-2014 22:54:01.129 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - Begins request:4
+17-05-2014 22:54:01.170 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - End of request: Hernandez Clementina
+17-05-2014 22:54:01.925 [http-bio-8080-exec-5] INFO  AsistenteServiceGet - Begins request:4
+17-05-2014 22:54:01.952 [http-bio-8080-exec-5] INFO  AsistenteServiceGet - End of request: Hernandez Clementina
+17-05-2014 22:54:02.577 [http-bio-8080-exec-1] INFO  AsistenteServiceGet - Begins request:4
+17-05-2014 22:54:02.600 [http-bio-8080-exec-1] INFO  AsistenteServiceGet - End of request: Hernandez Clementina
+17-05-2014 22:54:05.809 [http-bio-8080-exec-7] INFO  AsistenteServiceGet - Begins request:4
+17-05-2014 22:54:05.834 [http-bio-8080-exec-7] INFO  AsistenteServiceGet - End of request: Hernandez Clementina
+17-05-2014 22:54:05.943 [http-bio-8080-exec-7] INFO  AsistenteServiceUpdate - Begins request: Hernandez Clementina
+17-05-2014 22:54:06.044 [http-bio-8080-exec-7] INFO  AsistenteServiceUpdate - End of request
+17-05-2014 22:54:06.096 [http-bio-8080-exec-7] INFO  AsistenteServiceGet - Begins request:4
+17-05-2014 22:54:06.119 [http-bio-8080-exec-7] INFO  AsistenteServiceGet - End of request: Hernandez Clementina
+17-05-2014 22:54:06.478 [http-bio-8080-exec-6] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+17-05-2014 22:54:06.511 [http-bio-8080-exec-6] INFO  AsistenteServiceList - End of request: [items:[Gonzalez Martinez Francisco Javier, Viveros Guerrero Jose Manuel, Silva Hernández José, Hernandez Clementina], total:4]
+17-05-2014 22:54:12.807 [http-bio-8080-exec-8] INFO  AsistenteServiceGet - Begins request:4
+17-05-2014 22:54:12.909 [http-bio-8080-exec-8] INFO  AsistenteServiceGet - End of request: Hernandez Clementina
+17-05-2014 22:54:12.937 [http-bio-8080-exec-8] INFO  AsistenteServiceUpdate - Begins request: Hernandez Clementina
+17-05-2014 22:54:13.167 [http-bio-8080-exec-8] INFO  AsistenteServiceUpdate - End of request
+17-05-2014 22:54:13.211 [http-bio-8080-exec-3] INFO  AsistenteServiceGet - Begins request:4
+17-05-2014 22:54:13.228 [http-bio-8080-exec-3] INFO  AsistenteServiceGet - End of request: Hernandez Clementina
+17-05-2014 22:54:13.587 [http-bio-8080-exec-9] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+17-05-2014 22:54:13.617 [http-bio-8080-exec-9] INFO  AsistenteServiceList - End of request: [items:[Gonzalez Martinez Francisco Javier, Viveros Guerrero Jose Manuel, Silva Hernández José, Hernandez Clementina], total:4]
+17-05-2014 22:54:32.492 [http-bio-8080-exec-5] INFO  AsistenteServiceCreate - Begins request: Silva Sonia
+17-05-2014 22:54:32.602 [http-bio-8080-exec-5] INFO  AsistenteServiceCreate - End of request
+17-05-2014 22:54:32.661 [http-bio-8080-exec-5] INFO  AsistenteServiceGet - Begins request:5
+17-05-2014 22:54:32.675 [http-bio-8080-exec-5] INFO  AsistenteServiceGet - End of request: Silva Sonia
+17-05-2014 22:54:33.333 [http-bio-8080-exec-10] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+17-05-2014 22:54:33.364 [http-bio-8080-exec-10] INFO  AsistenteServiceList - End of request: [items:[Gonzalez Martinez Francisco Javier, Viveros Guerrero Jose Manuel, Silva Hernández José, Hernandez Clementina, Silva Sonia], total:5]
+17-05-2014 22:54:59.782 [http-bio-8080-exec-6] INFO  AsistenteServiceCreate - Begins request: Silva Lupe
+17-05-2014 22:54:59.914 [http-bio-8080-exec-6] INFO  AsistenteServiceCreate - End of request
+17-05-2014 22:54:59.953 [http-bio-8080-exec-8] INFO  AsistenteServiceGet - Begins request:6
+17-05-2014 22:54:59.967 [http-bio-8080-exec-8] INFO  AsistenteServiceGet - End of request: Silva Lupe
+17-05-2014 22:55:00.324 [http-bio-8080-exec-3] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+17-05-2014 22:55:00.353 [http-bio-8080-exec-3] INFO  AsistenteServiceList - End of request: [items:[Gonzalez Martinez Francisco Javier, Viveros Guerrero Jose Manuel, Silva Hernández José, Hernandez Clementina, Silva Sonia, Silva Lupe], total:6]
+17-05-2014 22:55:05.447 [http-bio-8080-exec-9] INFO  AsistenteServiceGet - Begins request:6
+17-05-2014 22:55:05.470 [http-bio-8080-exec-9] INFO  AsistenteServiceGet - End of request: Silva Lupe
+17-05-2014 22:55:05.481 [http-bio-8080-exec-9] INFO  AsistenteServiceUpdate - Begins request: Silva Lupe
+17-05-2014 22:55:05.495 [http-bio-8080-exec-9] INFO  AsistenteServiceUpdate - End of request
+17-05-2014 22:55:05.559 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - Begins request:6
+17-05-2014 22:55:05.580 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - End of request: Silva Lupe
+17-05-2014 22:55:06.089 [http-bio-8080-exec-4] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+17-05-2014 22:55:06.145 [http-bio-8080-exec-4] INFO  AsistenteServiceList - End of request: [items:[Gonzalez Martinez Francisco Javier, Viveros Guerrero Jose Manuel, Silva Hernández José, Hernandez Clementina, Silva Sonia, Silva Lupe], total:6]
+17-05-2014 22:55:24.850 [http-bio-8080-exec-7] INFO  AsistenteServiceCreate - Begins request: Silva Diana
+17-05-2014 22:55:24.973 [http-bio-8080-exec-7] INFO  AsistenteServiceCreate - End of request
+17-05-2014 22:55:25.073 [http-bio-8080-exec-10] INFO  AsistenteServiceGet - Begins request:7
+17-05-2014 22:55:25.105 [http-bio-8080-exec-10] INFO  AsistenteServiceGet - End of request: Silva Diana
+17-05-2014 22:55:25.592 [http-bio-8080-exec-10] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+17-05-2014 22:55:25.646 [http-bio-8080-exec-10] INFO  AsistenteServiceList - End of request: [items:[Gonzalez Martinez Francisco Javier, Viveros Guerrero Jose Manuel, Silva Hernández José, Hernandez Clementina, Silva Sonia, Silva Lupe, Silva Diana], total:7]
+17-05-2014 22:55:41.931 [http-bio-8080-exec-8] INFO  AsistenteServiceCreate - Begins request: Silva Josefina
+17-05-2014 22:55:42.014 [http-bio-8080-exec-8] INFO  AsistenteServiceCreate - End of request
+17-05-2014 22:55:42.048 [http-bio-8080-exec-3] INFO  AsistenteServiceGet - Begins request:8
+17-05-2014 22:55:42.061 [http-bio-8080-exec-3] INFO  AsistenteServiceGet - End of request: Silva Josefina
+17-05-2014 22:55:42.431 [http-bio-8080-exec-3] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+17-05-2014 22:55:42.473 [http-bio-8080-exec-3] INFO  AsistenteServiceList - End of request: [items:[Gonzalez Martinez Francisco Javier, Viveros Guerrero Jose Manuel, Silva Hernández José, Hernandez Clementina, Silva Sonia, Silva Lupe, Silva Diana, Silva Josefina], total:8]
+17-05-2014 22:55:49.628 [http-bio-8080-exec-7] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 22:55:49.658 [http-bio-8080-exec-7] INFO  TallerServiceList - End of request: [items:[Taller 1, Taller 3, Taller 2], total:3]
+17-05-2014 22:55:50.463 [http-bio-8080-exec-6] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 22:55:50.510 [http-bio-8080-exec-6] INFO  AsistenteServiceList - End of request: [items:[Gonzalez Martinez Francisco Javier, Viveros Guerrero Jose Manuel, Silva Hernández José, Hernandez Clementina, Silva Sonia, Silva Lupe, Silva Diana, Silva Josefina], total:8]
+17-05-2014 22:57:08.437 [http-bio-8080-exec-5] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 22:57:08.500 [http-bio-8080-exec-5] INFO  AsistenteServiceList - End of request: [items:[Gonzalez Martinez Francisco Javier, Viveros Guerrero Jose Manuel, Silva Hernández José, Hernandez Clementina, Silva Sonia, Silva Lupe, Silva Diana, Silva Josefina], total:8]
+17-05-2014 22:57:11.117 [http-bio-8080-exec-5] INFO  AsistenteServiceGet - Begins request:1
+17-05-2014 22:57:11.140 [http-bio-8080-exec-5] INFO  AsistenteServiceGet - End of request: Gonzalez Martinez Francisco Javier
+17-05-2014 22:57:14.252 [http-bio-8080-exec-1] INFO  AsistenteServiceGet - Begins request:2
+17-05-2014 22:57:14.274 [http-bio-8080-exec-1] INFO  AsistenteServiceGet - End of request: Viveros Guerrero Jose Manuel
+17-05-2014 22:57:15.487 [http-bio-8080-exec-1] INFO  AsistenteServiceGet - Begins request:3
+17-05-2014 22:57:15.507 [http-bio-8080-exec-1] INFO  AsistenteServiceGet - End of request: Silva Hernández José
+17-05-2014 22:57:17.878 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - Begins request:4
+17-05-2014 22:57:17.893 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - End of request: Hernandez Clementina
+17-05-2014 22:57:19.872 [http-bio-8080-exec-2] INFO  AsistenteServiceGet - Begins request:5
+17-05-2014 22:57:19.889 [http-bio-8080-exec-2] INFO  AsistenteServiceGet - End of request: Silva Sonia
+17-05-2014 22:57:20.672 [http-bio-8080-exec-2] INFO  AsistenteServiceGet - Begins request:6
+17-05-2014 22:57:20.693 [http-bio-8080-exec-2] INFO  AsistenteServiceGet - End of request: Silva Lupe
+17-05-2014 22:57:21.587 [http-bio-8080-exec-8] INFO  AsistenteServiceGet - Begins request:7
+17-05-2014 22:57:21.608 [http-bio-8080-exec-8] INFO  AsistenteServiceGet - End of request: Silva Diana
+17-05-2014 22:57:22.434 [http-bio-8080-exec-8] INFO  AsistenteServiceGet - Begins request:8
+17-05-2014 22:57:22.466 [http-bio-8080-exec-8] INFO  AsistenteServiceGet - End of request: Silva Josefina
+17-05-2014 22:57:31.730 [http-bio-8080-exec-1] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 22:57:31.768 [http-bio-8080-exec-1] INFO  AsistenteServiceList - End of request: [items:[Gonzalez Martinez Francisco Javier, Viveros Guerrero Jose Manuel, Silva Hernández José, Hernandez Clementina, Silva Sonia, Silva Lupe, Silva Diana, Silva Josefina], total:8]
+17-05-2014 23:01:21.669 [http-bio-8080-exec-2] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 23:01:21.715 [http-bio-8080-exec-2] INFO  AsistenteServiceList - End of request: [items:[Gonzalez Martinez Francisco Javier, Viveros Guerrero Jose Manuel, Silva Hernández José, Hernandez Clementina, Silva Sonia, Silva Lupe, Silva Diana, Silva Josefina], total:8]
+17-05-2014 23:01:23.901 [http-bio-8080-exec-2] INFO  AsistenteServiceGet - Begins request:2
+17-05-2014 23:01:23.916 [http-bio-8080-exec-2] INFO  AsistenteServiceGet - End of request: Viveros Guerrero Jose Manuel
+17-05-2014 23:04:28.773 [http-bio-8080-exec-9] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+17-05-2014 23:04:28.850 [http-bio-8080-exec-9] INFO  AsistenteServiceList - End of request: [items:[Gonzalez Martinez Francisco Javier, Viveros Guerrero Jose Manuel, Silva Hernández José, Hernandez Clementina, Silva Sonia, Silva Lupe, Silva Diana, Silva Josefina], total:8]
+17-05-2014 23:05:39.620 [http-bio-8080-exec-3] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+17-05-2014 23:05:39.659 [http-bio-8080-exec-3] INFO  TallerServiceList - End of request: [items:[Taller 1, Taller 3, Taller 2], total:3]
+21-05-2014 17:09:53.424 [http-bio-8080-exec-3] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+21-05-2014 17:09:54.217 [http-bio-8080-exec-3] INFO  AsistenteServiceList - End of request: [items:[], total:0]
+21-05-2014 17:10:43.170 [http-bio-8080-exec-8] INFO  AsistenteServiceCreate - Begins request: Silva Hernández José Fernando
+21-05-2014 17:10:43.601 [http-bio-8080-exec-8] INFO  AsistenteServiceCreate - End of request
+21-05-2014 17:10:43.680 [http-bio-8080-exec-8] INFO  AsistenteServiceGet - Begins request:1
+21-05-2014 17:10:43.798 [http-bio-8080-exec-8] INFO  AsistenteServiceGet - End of request: Silva Hernández José Fernando
+21-05-2014 17:10:44.804 [http-bio-8080-exec-8] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+21-05-2014 17:10:44.836 [http-bio-8080-exec-8] INFO  AsistenteServiceList - End of request: [items:[Silva Hernández José Fernando], total:1]
+21-05-2014 17:12:04.873 [http-bio-8080-exec-1] INFO  AsistenteServiceCreate - Begins request: Gonzalez Martinez Francisco Javier
+21-05-2014 17:12:05.025 [http-bio-8080-exec-1] INFO  AsistenteServiceCreate - End of request
+21-05-2014 17:12:05.070 [http-bio-8080-exec-2] INFO  AsistenteServiceGet - Begins request:2
+21-05-2014 17:12:05.088 [http-bio-8080-exec-2] INFO  AsistenteServiceGet - End of request: Gonzalez Martinez Francisco Javier
+21-05-2014 17:12:05.306 [http-bio-8080-exec-2] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+21-05-2014 17:12:05.335 [http-bio-8080-exec-2] INFO  AsistenteServiceList - End of request: [items:[Silva Hernández José Fernando, Gonzalez Martinez Francisco Javier], total:2]
+21-05-2014 17:13:09.901 [http-bio-8080-exec-7] INFO  AsistenteServiceCreate - Begins request: Viveros Guerrero José Manuel
+21-05-2014 17:13:10.019 [http-bio-8080-exec-7] INFO  AsistenteServiceCreate - End of request
+21-05-2014 17:13:10.056 [http-bio-8080-exec-5] INFO  AsistenteServiceGet - Begins request:3
+21-05-2014 17:13:10.103 [http-bio-8080-exec-5] INFO  AsistenteServiceGet - End of request: Viveros Guerrero José Manuel
+21-05-2014 17:13:10.366 [http-bio-8080-exec-9] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+21-05-2014 17:13:10.391 [http-bio-8080-exec-9] INFO  AsistenteServiceList - End of request: [items:[Silva Hernández José Fernando, Gonzalez Martinez Francisco Javier, Viveros Guerrero José Manuel], total:3]
+21-05-2014 17:14:02.629 [http-bio-8080-exec-4] INFO  AsistenteServiceCreate - Begins request: Acosta Romero Luis Angel
+21-05-2014 17:14:02.772 [http-bio-8080-exec-4] INFO  AsistenteServiceCreate - Error in request: IllegalArgumentException - Parameter 'asistente' is invalid
+21-05-2014 17:14:20.518 [http-bio-8080-exec-3] INFO  AsistenteServiceCreate - Begins request: Acosta Romero Luis Angel
+21-05-2014 17:14:20.660 [http-bio-8080-exec-3] INFO  AsistenteServiceCreate - End of request
+21-05-2014 17:14:20.717 [http-bio-8080-exec-1] INFO  AsistenteServiceGet - Begins request:4
+21-05-2014 17:14:20.747 [http-bio-8080-exec-1] INFO  AsistenteServiceGet - End of request: Acosta Romero Luis Angel
+21-05-2014 17:14:21.023 [http-bio-8080-exec-10] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+21-05-2014 17:14:21.055 [http-bio-8080-exec-10] INFO  AsistenteServiceList - End of request: [items:[Silva Hernández José Fernando, Gonzalez Martinez Francisco Javier, Viveros Guerrero José Manuel, Acosta Romero Luis Angel], total:4]
+21-05-2014 17:16:59.736 [http-bio-8080-exec-7] INFO  AsistenteServiceCreate - Begins request: Islas del Angel Edwin
+21-05-2014 17:16:59.862 [http-bio-8080-exec-7] INFO  AsistenteServiceCreate - End of request
+21-05-2014 17:16:59.892 [http-bio-8080-exec-5] INFO  AsistenteServiceGet - Begins request:5
+21-05-2014 17:16:59.912 [http-bio-8080-exec-5] INFO  AsistenteServiceGet - End of request: Islas del Angel Edwin
+21-05-2014 17:17:00.121 [http-bio-8080-exec-8] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+21-05-2014 17:17:00.159 [http-bio-8080-exec-8] INFO  AsistenteServiceList - End of request: [items:[Silva Hernández José Fernando, Gonzalez Martinez Francisco Javier, Viveros Guerrero José Manuel, Acosta Romero Luis Angel, Islas del Angel Edwin], total:5]
+21-05-2014 17:17:49.403 [http-bio-8080-exec-2] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+21-05-2014 17:17:49.488 [http-bio-8080-exec-2] INFO  TallerServiceList - End of request: [items:[], total:0]
+21-05-2014 17:18:01.055 [http-bio-8080-exec-6] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+21-05-2014 17:18:01.094 [http-bio-8080-exec-6] INFO  AsistenteServiceList - End of request: [items:[Silva Hernández José Fernando, Gonzalez Martinez Francisco Javier, Viveros Guerrero José Manuel, Acosta Romero Luis Angel, Islas del Angel Edwin], total:5]
+21-05-2014 17:20:17.122 [http-bio-8080-exec-8] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+21-05-2014 17:20:17.170 [http-bio-8080-exec-8] INFO  AsistenteServiceList - End of request: [items:[Silva Hernández José Fernando, Gonzalez Martinez Francisco Javier, Viveros Guerrero José Manuel, Acosta Romero Luis Angel, Islas del Angel Edwin], total:5]
+21-05-2014 17:20:28.953 [http-bio-8080-exec-8] INFO  AsistenteServiceGet - Begins request:1
+21-05-2014 17:20:28.991 [http-bio-8080-exec-8] INFO  AsistenteServiceGet - End of request: Silva Hernández José Fernando
+21-05-2014 19:17:39.939 [http-bio-8080-exec-4] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+21-05-2014 19:17:39.985 [http-bio-8080-exec-4] INFO  TallerServiceList - End of request: [items:[], total:0]
+21-05-2014 19:17:48.110 [http-bio-8080-exec-2] INFO  TallerServiceCreate - Begins request: Taller básico Grupo 1 (10:30 - 11:30)
+21-05-2014 19:17:48.230 [http-bio-8080-exec-2] INFO  TallerServiceCreate - End of request
+21-05-2014 19:17:48.280 [http-bio-8080-exec-2] INFO  TallerServiceGet - Begins request:1
+21-05-2014 19:17:48.299 [http-bio-8080-exec-2] INFO  TallerServiceGet - End of request: Taller básico Grupo 1 (10:30 - 11:30)
+21-05-2014 19:17:49.054 [http-bio-8080-exec-7] INFO  TallerServiceList - Begins request: [action:list, format:null, controller:taller]
+21-05-2014 19:17:49.081 [http-bio-8080-exec-7] INFO  TallerServiceList - End of request: [items:[Taller básico Grupo 1 (10:30 - 11:30)], total:1]
+21-05-2014 19:18:05.334 [http-bio-8080-exec-3] INFO  TallerServiceGet - Begins request:1
+21-05-2014 19:18:05.353 [http-bio-8080-exec-3] INFO  TallerServiceGet - End of request: Taller básico Grupo 1 (10:30 - 11:30)
+21-05-2014 19:18:16.954 [http-bio-8080-exec-8] INFO  TallerServiceCreate - Begins request: Taller básico Grupo 2 (10:30 - 11:30)
+21-05-2014 19:18:17.062 [http-bio-8080-exec-8] INFO  TallerServiceCreate - End of request
+21-05-2014 19:18:17.102 [http-bio-8080-exec-5] INFO  TallerServiceGet - Begins request:2
+21-05-2014 19:18:17.123 [http-bio-8080-exec-5] INFO  TallerServiceGet - End of request: Taller básico Grupo 2 (10:30 - 11:30)
+21-05-2014 19:18:17.278 [http-bio-8080-exec-1] INFO  TallerServiceList - Begins request: [action:list, format:null, controller:taller]
+21-05-2014 19:18:17.325 [http-bio-8080-exec-1] INFO  TallerServiceList - End of request: [items:[Taller básico Grupo 1 (10:30 - 11:30), Taller básico Grupo 2 (10:30 - 11:30)], total:2]
+21-05-2014 19:18:59.128 [http-bio-8080-exec-10] INFO  TallerServiceCreate - Begins request: Taller básico Grupo 3 (12:30 - 13:30)
+21-05-2014 19:18:59.249 [http-bio-8080-exec-10] INFO  TallerServiceCreate - End of request
+21-05-2014 19:18:59.279 [http-bio-8080-exec-2] INFO  TallerServiceGet - Begins request:3
+21-05-2014 19:18:59.295 [http-bio-8080-exec-2] INFO  TallerServiceGet - End of request: Taller básico Grupo 3 (12:30 - 13:30)
+21-05-2014 19:18:59.368 [http-bio-8080-exec-7] INFO  TallerServiceList - Begins request: [action:list, format:null, controller:taller]
+21-05-2014 19:18:59.396 [http-bio-8080-exec-7] INFO  TallerServiceList - End of request: [items:[Taller básico Grupo 1 (10:30 - 11:30), Taller básico Grupo 2 (10:30 - 11:30), Taller básico Grupo 3 (12:30 - 13:30)], total:3]
+21-05-2014 19:19:14.824 [http-bio-8080-exec-7] INFO  TallerServiceCreate - Begins request: Taller básico Grupo 4 (12:30 - 13:30)
+21-05-2014 19:19:14.936 [http-bio-8080-exec-7] INFO  TallerServiceCreate - End of request
+21-05-2014 19:19:14.977 [http-bio-8080-exec-9] INFO  TallerServiceGet - Begins request:4
+21-05-2014 19:19:14.994 [http-bio-8080-exec-9] INFO  TallerServiceGet - End of request: Taller básico Grupo 4 (12:30 - 13:30)
+21-05-2014 19:19:15.138 [http-bio-8080-exec-8] INFO  TallerServiceList - Begins request: [action:list, format:null, controller:taller]
+21-05-2014 19:19:15.166 [http-bio-8080-exec-8] INFO  TallerServiceList - End of request: [items:[Taller básico Grupo 1 (10:30 - 11:30), Taller básico Grupo 2 (10:30 - 11:30), Taller básico Grupo 3 (12:30 - 13:30), Taller básico Grupo 4 (12:30 - 13:30)], total:4]
+21-05-2014 19:19:40.133 [http-bio-8080-exec-1] INFO  TallerServiceCreate - Begins request: Taller intermedio 1 (10:30 - 11: 30)
+21-05-2014 19:19:40.205 [http-bio-8080-exec-1] INFO  TallerServiceCreate - End of request
+21-05-2014 19:19:40.237 [http-bio-8080-exec-4] INFO  TallerServiceGet - Begins request:5
+21-05-2014 19:19:40.255 [http-bio-8080-exec-4] INFO  TallerServiceGet - End of request: Taller intermedio 1 (10:30 - 11: 30)
+21-05-2014 19:19:40.333 [http-bio-8080-exec-10] INFO  TallerServiceList - Begins request: [action:list, format:null, controller:taller]
+21-05-2014 19:19:40.368 [http-bio-8080-exec-10] INFO  TallerServiceList - End of request: [items:[Taller básico Grupo 1 (10:30 - 11:30), Taller básico Grupo 2 (10:30 - 11:30), Taller básico Grupo 3 (12:30 - 13:30), Taller básico Grupo 4 (12:30 - 13:30), Taller intermedio 1 (10:30 - 11: 30)], total:5]
+21-05-2014 19:19:56.256 [http-bio-8080-exec-6] INFO  TallerServiceCreate - Begins request: Taller intermedio 2 (12:30 - 13: 30)
+21-05-2014 19:19:56.379 [http-bio-8080-exec-6] INFO  TallerServiceCreate - End of request
+21-05-2014 19:19:56.411 [http-bio-8080-exec-3] INFO  TallerServiceGet - Begins request:6
+21-05-2014 19:19:56.440 [http-bio-8080-exec-3] INFO  TallerServiceGet - End of request: Taller intermedio 2 (12:30 - 13: 30)
+21-05-2014 19:19:56.540 [http-bio-8080-exec-7] INFO  TallerServiceList - Begins request: [action:list, format:null, controller:taller]
+21-05-2014 19:19:56.569 [http-bio-8080-exec-7] INFO  TallerServiceList - End of request: [items:[Taller básico Grupo 1 (10:30 - 11:30), Taller básico Grupo 2 (10:30 - 11:30), Taller básico Grupo 3 (12:30 - 13:30), Taller básico Grupo 4 (12:30 - 13:30), Taller intermedio 1 (10:30 - 11: 30), Taller intermedio 2 (12:30 - 13: 30)], total:6]
+21-05-2014 19:20:30.930 [http-bio-8080-exec-8] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+21-05-2014 19:20:30.956 [http-bio-8080-exec-8] INFO  TallerServiceList - End of request: [items:[Taller básico Grupo 1 (10:30 - 11:30), Taller básico Grupo 2 (10:30 - 11:30), Taller básico Grupo 3 (12:30 - 13:30), Taller básico Grupo 4 (12:30 - 13:30), Taller intermedio 1 (10:30 - 11: 30), Taller intermedio 2 (12:30 - 13: 30)], total:6]
+21-05-2014 19:27:40.764 [http-bio-8080-exec-8] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+21-05-2014 19:27:40.825 [http-bio-8080-exec-8] INFO  AsistenteServiceList - End of request: [items:[Silva Hernández José Fernando, Gonzalez Martinez Francisco Javier, Viveros Guerrero José Manuel, Acosta Romero Luis Angel, Islas del Angel Edwin], total:5]
+21-05-2014 19:27:42.818 [http-bio-8080-exec-10] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+21-05-2014 19:27:42.841 [http-bio-8080-exec-10] INFO  TallerServiceList - End of request: [items:[Taller básico Grupo 1 (10:30 - 11:30), Taller básico Grupo 2 (10:30 - 11:30), Taller básico Grupo 3 (12:30 - 13:30), Taller básico Grupo 4 (12:30 - 13:30), Taller intermedio 1 (10:30 - 11: 30), Taller intermedio 2 (12:30 - 13: 30)], total:6]
+21-05-2014 19:28:24.292 [http-bio-8080-exec-2] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+21-05-2014 19:28:24.325 [http-bio-8080-exec-2] INFO  AsistenteServiceList - End of request: [items:[Silva Hernández José Fernando, Gonzalez Martinez Francisco Javier, Viveros Guerrero José Manuel, Acosta Romero Luis Angel, Islas del Angel Edwin], total:5]
+21-05-2014 19:28:27.657 [http-bio-8080-exec-7] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+21-05-2014 19:28:27.689 [http-bio-8080-exec-7] INFO  TallerServiceList - End of request: [items:[Taller básico Grupo 1 (10:30 - 11:30), Taller básico Grupo 2 (10:30 - 11:30), Taller básico Grupo 3 (12:30 - 13:30), Taller básico Grupo 4 (12:30 - 13:30), Taller intermedio 1 (10:30 - 11: 30), Taller intermedio 2 (12:30 - 13: 30)], total:6]
+21-05-2014 19:29:09.290 [http-bio-8080-exec-7] INFO  TallerServiceCreate - Begins request: Taller super avanzado
+21-05-2014 19:29:09.395 [http-bio-8080-exec-7] INFO  TallerServiceCreate - End of request
+21-05-2014 19:29:09.433 [http-bio-8080-exec-7] INFO  TallerServiceGet - Begins request:7
+21-05-2014 19:29:09.451 [http-bio-8080-exec-7] INFO  TallerServiceGet - End of request: Taller super avanzado
+21-05-2014 19:29:09.517 [http-bio-8080-exec-8] INFO  TallerServiceList - Begins request: [action:list, format:null, controller:taller]
+21-05-2014 19:29:09.553 [http-bio-8080-exec-8] INFO  TallerServiceList - End of request: [items:[Taller básico Grupo 1 (10:30 - 11:30), Taller básico Grupo 2 (10:30 - 11:30), Taller básico Grupo 3 (12:30 - 13:30), Taller básico Grupo 4 (12:30 - 13:30), Taller intermedio 1 (10:30 - 11: 30), Taller intermedio 2 (12:30 - 13: 30), Taller super avanzado], total:7]
+21-05-2014 19:29:23.128 [http-bio-8080-exec-8] INFO  TallerServiceGet - Begins request:7
+21-05-2014 19:29:23.145 [http-bio-8080-exec-8] INFO  TallerServiceGet - End of request: Taller super avanzado
+21-05-2014 19:29:25.846 [http-bio-8080-exec-9] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+21-05-2014 19:29:25.877 [http-bio-8080-exec-9] INFO  AsistenteServiceList - End of request: [items:[Silva Hernández José Fernando, Gonzalez Martinez Francisco Javier, Viveros Guerrero José Manuel, Acosta Romero Luis Angel, Islas del Angel Edwin], total:5]
+21-05-2014 19:33:51.985 [http-bio-8080-exec-2] INFO  AsistenteServiceCreate - Begins request: Cruz Cruz José Concepción
+21-05-2014 19:33:52.052 [http-bio-8080-exec-2] INFO  AsistenteServiceCreate - Error in request: IllegalArgumentException - Parameter 'asistente' is invalid
+21-05-2014 19:34:19.029 [http-bio-8080-exec-3] INFO  AsistenteServiceCreate - Begins request: Cruz Cruz José Concepción
+21-05-2014 19:34:19.769 [http-bio-8080-exec-3] INFO  AsistenteServiceCreate - End of request
+21-05-2014 19:34:19.822 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - Begins request:6
+21-05-2014 19:34:19.859 [http-bio-8080-exec-4] INFO  AsistenteServiceGet - End of request: Cruz Cruz José Concepción
+21-05-2014 19:34:20.172 [http-bio-8080-exec-5] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+21-05-2014 19:34:20.215 [http-bio-8080-exec-5] INFO  AsistenteServiceList - End of request: [items:[Silva Hernández José Fernando, Gonzalez Martinez Francisco Javier, Viveros Guerrero José Manuel, Acosta Romero Luis Angel, Islas del Angel Edwin, Cruz Cruz José Concepción], total:6]
+21-05-2014 19:34:41.909 [http-bio-8080-exec-10] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+21-05-2014 19:34:41.969 [http-bio-8080-exec-10] INFO  AsistenteServiceList - End of request: [items:[Silva Hernández José Fernando, Gonzalez Martinez Francisco Javier, Viveros Guerrero José Manuel, Acosta Romero Luis Angel, Islas del Angel Edwin, Cruz Cruz José Concepción], total:6]
+21-05-2014 19:34:48.955 [http-bio-8080-exec-2] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+21-05-2014 19:34:48.985 [http-bio-8080-exec-2] INFO  AsistenteServiceList - End of request: [items:[Silva Hernández José Fernando, Gonzalez Martinez Francisco Javier, Viveros Guerrero José Manuel, Acosta Romero Luis Angel, Islas del Angel Edwin, Cruz Cruz José Concepción], total:6]
+21-05-2014 19:35:23.803 [http-bio-8080-exec-7] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+21-05-2014 19:35:23.829 [http-bio-8080-exec-7] INFO  AsistenteServiceList - End of request: [items:[Silva Hernández José Fernando, Gonzalez Martinez Francisco Javier, Viveros Guerrero José Manuel, Acosta Romero Luis Angel, Islas del Angel Edwin, Cruz Cruz José Concepción], total:6]
+21-05-2014 19:36:15.553 [http-bio-8080-exec-4] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+21-05-2014 19:36:15.599 [http-bio-8080-exec-4] INFO  AsistenteServiceList - End of request: [items:[Silva Hernández José Fernando, Gonzalez Martinez Francisco Javier, Viveros Guerrero José Manuel, Acosta Romero Luis Angel, Islas del Angel Edwin, Cruz Cruz José Concepción], total:6]
+07-06-2014 12:23:56.467 [http-bio-8080-exec-10] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+07-06-2014 12:23:57.279 [http-bio-8080-exec-10] INFO  TallerServiceList - End of request: [items:[Taller básico Grupo 1 (10:30 - 11:30), Taller básico Grupo 2 (10:30 - 11:30), Taller básico Grupo 3 (12:30 - 13:30), Taller básico Grupo 4 (12:30 - 13:30), Taller intermedio 1 (10:30 - 11: 30), Taller intermedio 2 (12:30 - 13: 30), Taller super avanzado], total:7]
+07-06-2014 12:24:18.065 [http-bio-8080-exec-3] INFO  TallerServiceGet - Begins request:7
+07-06-2014 12:24:18.293 [http-bio-8080-exec-3] INFO  TallerServiceGet - End of request: Taller super avanzado
+07-06-2014 12:24:18.338 [http-bio-8080-exec-3] INFO  TallerServiceDelete - Begins request:Taller super avanzado
+07-06-2014 12:24:18.444 [http-bio-8080-exec-3] ERROR JDBCExceptionReporter - Cannot delete or update a parent row: a foreign key constraint fails (`constancias`.`asistente`, CONSTRAINT `FK55530FF29E33FA60` FOREIGN KEY (`taller_id`) REFERENCES `taller` (`id`))
+07-06-2014 12:24:18.459 [http-bio-8080-exec-3] ERROR PatchedDefaultFlushEventListener - Could not synchronize database state with session
+org.hibernate.exception.ConstraintViolationException: could not delete: [constancias.Taller#7]
+	at constancias.TallerController.delete(TallerController.groovy:68)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:200)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`constancias`.`asistente`, CONSTRAINT `FK55530FF29E33FA60` FOREIGN KEY (`taller_id`) REFERENCES `taller` (`id`))
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1041)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4237)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4169)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2617)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2778)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2825)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2156)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2459)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2376)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2360)
+	... 9 more
+07-06-2014 12:24:18.950 [http-bio-8080-exec-3] INFO  TallerServiceDelete - Error in request: DataIntegrityViolationException - could not delete: [constancias.Taller#7]; SQL [delete from taller where id=? and version=?]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not delete: [constancias.Taller#7]
+07-06-2014 12:24:21.923 [http-bio-8080-exec-6] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+07-06-2014 12:24:22.287 [http-bio-8080-exec-6] INFO  AsistenteServiceList - End of request: [items:[Silva Hernández José Fernando, Gonzalez Martinez Francisco Javier, Viveros Guerrero José Manuel, Acosta Romero Luis Angel, Islas del Angel Edwin, Cruz Cruz José Concepción], total:6]
+07-06-2014 12:27:36.114 [http-bio-8080-exec-7] INFO  AsistenteServiceGet - Begins request:6
+07-06-2014 12:27:36.144 [http-bio-8080-exec-7] INFO  AsistenteServiceGet - End of request: Cruz Cruz José Concepción
+07-06-2014 12:27:36.191 [http-bio-8080-exec-7] INFO  AsistenteServiceDelete - Begins request:Cruz Cruz José Concepción
+07-06-2014 12:27:36.259 [http-bio-8080-exec-7] INFO  AsistenteServiceDelete - End of request
+07-06-2014 12:27:36.307 [http-bio-8080-exec-2] INFO  AsistenteServiceList - Begins request: [action:content, format:null, controller:asistente]
+07-06-2014 12:27:36.347 [http-bio-8080-exec-2] INFO  AsistenteServiceList - End of request: [items:[Silva Hernández José Fernando, Gonzalez Martinez Francisco Javier, Viveros Guerrero José Manuel, Acosta Romero Luis Angel, Islas del Angel Edwin], total:5]
+07-06-2014 12:28:02.000 [http-bio-8080-exec-6] INFO  AsistenteServiceList - Begins request: [format:null, action:content, controller:asistente]
+07-06-2014 12:28:02.057 [http-bio-8080-exec-6] INFO  AsistenteServiceList - End of request: [items:[Silva Hernández José Fernando, Gonzalez Martinez Francisco Javier, Viveros Guerrero José Manuel, Acosta Romero Luis Angel, Islas del Angel Edwin], total:5]
+07-06-2014 12:28:04.236 [http-bio-8080-exec-5] INFO  AsistenteServiceGet - Begins request:1
+07-06-2014 12:28:04.253 [http-bio-8080-exec-5] INFO  AsistenteServiceGet - End of request: Silva Hernández José Fernando
+07-06-2014 12:28:11.837 [http-bio-8080-exec-5] INFO  AsistenteServiceGet - Begins request:1
+07-06-2014 12:28:11.861 [http-bio-8080-exec-5] INFO  AsistenteServiceGet - End of request: Silva Hernández José Fernando
+07-06-2014 12:28:12.555 [http-bio-8080-exec-5] INFO  AsistenteServiceUpdate - Begins request: Silva Hernández José Fernando
+07-06-2014 12:28:13.321 [http-bio-8080-exec-5] INFO  AsistenteServiceUpdate - End of request
+07-06-2014 12:28:13.391 [http-bio-8080-exec-1] INFO  AsistenteServiceGet - Begins request:1
+07-06-2014 12:28:13.432 [http-bio-8080-exec-1] INFO  AsistenteServiceGet - End of request: Silva Hernández José Fernando
+07-06-2014 12:28:14.087 [http-bio-8080-exec-1] INFO  AsistenteServiceList - Begins request: [action:list, format:null, controller:asistente]
+07-06-2014 12:28:14.197 [http-bio-8080-exec-1] INFO  AsistenteServiceList - End of request: [items:[Silva Hernández José Fernando, Gonzalez Martinez Francisco Javier, Viveros Guerrero José Manuel, Acosta Romero Luis Angel, Islas del Angel Edwin], total:5]
+07-06-2014 12:28:16.233 [http-bio-8080-exec-7] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+07-06-2014 12:28:16.272 [http-bio-8080-exec-7] INFO  TallerServiceList - End of request: [items:[Taller básico Grupo 1 (10:30 - 11:30), Taller básico Grupo 2 (10:30 - 11:30), Taller básico Grupo 3 (12:30 - 13:30), Taller básico Grupo 4 (12:30 - 13:30), Taller intermedio 1 (10:30 - 11: 30), Taller intermedio 2 (12:30 - 13: 30), Taller super avanzado], total:7]
+07-06-2014 12:28:20.276 [http-bio-8080-exec-7] INFO  TallerServiceGet - Begins request:7
+07-06-2014 12:28:20.295 [http-bio-8080-exec-7] INFO  TallerServiceGet - End of request: Taller super avanzado
+07-06-2014 12:28:20.297 [http-bio-8080-exec-7] INFO  TallerServiceDelete - Begins request:Taller super avanzado
+07-06-2014 12:28:20.365 [http-bio-8080-exec-7] INFO  TallerServiceDelete - End of request
+07-06-2014 12:28:20.425 [http-bio-8080-exec-3] INFO  TallerServiceList - Begins request: [action:content, format:null, controller:taller]
+07-06-2014 12:28:20.473 [http-bio-8080-exec-3] INFO  TallerServiceList - End of request: [items:[Taller básico Grupo 1 (10:30 - 11:30), Taller básico Grupo 2 (10:30 - 11:30), Taller básico Grupo 3 (12:30 - 13:30), Taller básico Grupo 4 (12:30 - 13:30), Taller intermedio 1 (10:30 - 11: 30), Taller intermedio 2 (12:30 - 13: 30)], total:6]
+09-12-2014 17:04:53.000 [http-bio-8080-exec-10] INFO  TallerServiceList - Begins request: [format:null, action:content, controller:taller]
+09-12-2014 17:04:54.114 [http-bio-8080-exec-10] INFO  TallerServiceList - End of request: [items:[], total:0]

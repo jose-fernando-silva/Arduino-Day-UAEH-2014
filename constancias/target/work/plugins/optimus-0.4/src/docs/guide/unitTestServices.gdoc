@@ -1,0 +1,99 @@
+When you create a service class with the [create-service-class|Scripts] command, it is highly recommended that you also create the corresponding unit tests. You can achieve this by executing the [create-unit-test-service|Scripts] command:
+{code}
+grails create-unit-test-service [domainClass]
+{code}
+Suppose you have a class named @mypackage.Person@. With the [create-unit-test-service|Scripts] command, you will get the following unit test files:
+* @test/unit/mypackage/PersonServiceListSpec.groovy@
+* @test/unit/mypackage/PersonServiceListMaxSpec.groovy@
+* @test/unit/mypackage/PersonServiceListOffsetSpec.groovy@
+* @test/unit/mypackage/PersonServiceListSortOrderSpec.groovy@
+* @test/unit/mypackage/PersonServiceCreateSpec.groovy@
+* @test/unit/mypackage/PersonServiceUpdateSpec.groovy@
+* @test/unit/mypackage/PersonServiceGetSpec.groovy@
+* @test/unit/mypackage/PersonServiceDeleteSpec.groovy@
+You can generate each file with the following commands:
+{table}
+ *File* | *Command*
+ @test/unit/mypackage/PersonServiceListSpec.groovy@ | [create-unit-test-service-list|Scripts]
+ @test/unit/mypackage/PersonServiceListMaxSpec.groovy@ | [create-unit-test-service-list-max|Scripts]
+ @test/unit/mypackage/PersonServiceListOffsetSpec.groovy@ | [create-unit-test-service-list-offset|Scripts]
+ @test/unit/mypackage/PersonServiceListSortOrderSpec.groovy@ | [create-unit-test-service-list-sort-order|Scripts]
+ @test/unit/mypackage/PersonServiceCreateSpec.groovy@ | [create-unit-test-service-create|Scripts]
+ @test/unit/mypackage/PersonServiceUpdateSpec.groovy@ | [create-unit-test-service-update|Scripts]
+ @test/unit/mypackage/PersonServiceGetSpec.groovy@ | [create-unit-test-service-get|Scripts]
+ @test/unit/mypackage/PersonServiceDeleteSpec.groovy@ | [create-unit-test-service-delete|Scripts]
+{table}
+If we open the @test/unit/mypackage/PersonServiceCreateSpec.groovy@ file, we will find something like this:
+{code}
+package mypackage
+
+import grails.test.mixin.*
+import spock.lang.*
+
+@TestFor(PersonService)
+@Mock(Person)
+class PersonServiceCreateSpec extends Specification {
+
+    def "test ok"() {
+
+        when:
+            def instance = PersonMock.mock( 0 )
+            service.create( instance )
+        then:
+            Person.count() == 1
+
+    }
+
+    def "test Person null"() {
+
+        when:
+            def instance = null
+            service.create( instance )
+        then:
+            IllegalArgumentException e = thrown()
+            e.message == "Parameter 'person' is null"
+
+    }
+
+    def "test Person invalid"() {
+
+        when:
+            def instance = PersonMock.mock( 0 )
+            instance.name = name
+            service.create( instance )
+        then:
+            IllegalArgumentException e = thrown()
+            e.message == "Parameter 'person' is invalid"
+        where:
+            name = null
+
+    }
+
+}
+{code}
+{note}
+For versions of Grails prior to 2.3.0, you need to install the "Grails Spock Plugin":http://grails.org/plugin/spock if you want to execute the tests.
+{note}
+You can notice the presence of the @PersonMock@ class.  This class is automatically generated and placed in the @src/groovy/mypackage/PersonMock.groovy@ file, and it contains utility methods for mocking a @Person@ valid domain class:
+{code}
+package mypackage
+
+class PersonMock {
+
+    static Person mock( id ) {
+
+        def instance = new Person(
+            name:'A' * 1,
+            lastName:'A' * 1,
+            birthdate:new Date(),
+            enabled:true,
+        )
+        instance
+
+    }
+
+}
+{code}
+If you change the id of this class (to @assigned@, for example), this class already consider it, allowing you to set the id by hand.
+
+You can generate the mock class separately by executing the [create-mock|Scripts] command.

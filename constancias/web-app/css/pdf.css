@@ -1,0 +1,22 @@
+.container {
+	height: 928px; 
+	margin: 0 auto;
+	width: 692px;
+}
+
+.tag {
+	font-size: 22px;
+	left: 50%;
+	margin-left: -285px;
+	position: absolute;
+	text-align: center;
+	top: 37%; 
+	width: 570px;
+	z-index: 1;
+}
+.tag span {
+	font-family: Verdana, Arial, Helvetica; 
+	font-size: 32px;
+	font-weight: bolder;
+	text-align: center;
+}
